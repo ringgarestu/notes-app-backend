@@ -1,3 +1,4 @@
+// eslint-disable-next-line object-curly-newline
 const { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler } = require("./handler");
 
 const routes = [

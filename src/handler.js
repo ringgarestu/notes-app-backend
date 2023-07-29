@@ -128,5 +128,5 @@ const deleteNoteByIdHandler = (request, h) => {
   response.code(404);
   return response;
 };
-// eslint-disable-next-line object-curly-newline
+// eslint-disable-next-line object-curly-newline, max-len
 module.exports = { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler };
